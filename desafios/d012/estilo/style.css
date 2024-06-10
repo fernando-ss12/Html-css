@@ -1,28 +1,37 @@
 @charset "UTF-8";
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-</style>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-</style>
 
+
+@font-face {
+    font-family: "Passion One";
+    src: url('fonte/PassionOne-regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family:"Coffee";
+    src: url("fonte/Coffee Spark.otf");
+}
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: "Sriracha", cursive;
     --fonte3: "Passion One", sans-serif;
+    --fonte4: "Coffee"
+
 }
 
 *{
     margin: opx;
     padding: opx;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-family: ;
 }
 
 body {
    min-height:  100vh;
    background-color: darkgray;
+   font-family: var(--fonte1);
 
 }
 
@@ -37,6 +46,8 @@ header > h1 {
 
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte4);
+    font-size: 3em;
 }
 
 header > p {
@@ -58,6 +69,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
 }
 
 section.normal {
