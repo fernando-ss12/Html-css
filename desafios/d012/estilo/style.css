@@ -1,24 +1,10 @@
 @charset "UTF-8";
 
-
-
-
 @font-face {
-    font-family: "Passion One";
-    src: url('fonte/PassionOne-regular.ttf') format('opentype');
+    font-family: "MyFont"; /* nome da fonte */
+    src: url('/desafios/d012/fonte/Coffee\ Spark.otf') format('truetype'); /* caminho para a fonte */
 }
 
-@font-face {
-    font-family:"Coffee";
-    src: url("fonte/Coffee Spark.otf");
-}
-:root {
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: "Sriracha", cursive;
-    --fonte3: "Passion One", sans-serif;
-    --fonte4: "Coffee"
-
-}
 
 *{
     margin: opx;
@@ -28,12 +14,19 @@
     font-family: ;
 }
 
+h1 {
+    color: darkgray;
+    background-color: beige;
+    font-family: Dinofiles;
+}
+
 body {
    min-height:  100vh;
    background-color: darkgray;
-   font-family: var(--fonte1);
-
-}
+   font-family: "MyFont", sans-serif;
+   
+   
+   }
 
 header {
     background-color: black;
@@ -46,7 +39,7 @@ header > h1 {
 
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte4);
+    font-family: Dinofiles;
     font-size: 3em;
 }
 
