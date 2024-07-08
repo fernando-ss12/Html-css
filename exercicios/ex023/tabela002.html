@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            position: relative;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: lightgray;
+            z-index: 1;
+        }
+        th {
+            background-color: lightgray;
+        }
+        caption {
+            font-weight: bold;
+            text-align: center;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(75, 69, 69);
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        td:first-child {
+            text-align: left;
+        }
+        td:last-child {
+            text-align: right;
+        }
+       tfoot {
+    </style>
+</head>
+<body>
+   <h1>Uso de tabelas grandes</h1> 
+
+   <!--ANATATO,IA PARA TABELAS GRANDES
+    TABLE
+    TABLE HEADER = CABEÇALHO DA TABELA
+        TR, TD, TH
+
+        TABLE DATA = DADOS DA TABELA
+        TR, TD, TH
+
+        TABLE FOOTER = PÁGINAÇÃO DA TABELA
+        TR, TD, TH
+
+
+
+    
+    -->
+
+    <TAble>
+    <caption>Populaçao da Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>Salário</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nando</td>
+                <td>24</td>
+                <td>Desenvolvedor Front-end</td>
+                <td>R$ 6000</td>
+                
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>27</td>
+                <td>Designer Gráfica</td>
+                <td>R$ 5000</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+                <td>Analista de Sistemas</td>
+                <td>R$ 7000</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>25</td>
+                <td>Engenheiro de Software</td>
+                <td>R$ 8000</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>29</td>
+                <td>Arquiteto de Software</td>
+                <td>R$ 9000</td>
+            </tr>
+
+            <tr>
+                <td>Isabella</td>
+                <td>26</td>
+                <td>Gerente de Projetos</td>
+                <td>R$ 10000</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>31</td>
+                <td>Analista de Negócios</td>
+                <td>R$ 6500</td>    
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>28</td>
+                <td>Designer UX/UI</td>
+                <td>R$ 7500</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>32</td>
+                <td>Arquiteto de Infraestrutura</td>
+                <td>R$ 8500</td>
+            </tr>
+            <tr>
+                <td>Vitoria</td>
+                <td>23</td>
+                <td>Engenheiro de Segurança</td>
+                <td>R$ 7000</td>
+            </tr>
+            <tr>
+                <td>Eduardo</td>
+                <td>33</td>
+                <td>Gerente de Suporte</td>
+                <td>R$ 9000</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>22</td>
+                <td>Analista de Redes</td>
+                <td>R$ 6000</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>34</td>
+                <td>Desenvolvedor Back-end</td>
+                <td>R$ 8000</td>
+            </tr>
+            <tr>
+                <td>André</td>
+                <td>21</td>
+                <td>Engenheiro de Dados</td>
+                <td>R$ 7500</td>
+            </tr>
+            <tr>
+                <td>Patrícia</td>
+                <td>35</td>
+                <td>Gerente de Marketing</td>
+                <td>R$ 9500</td>
+            </tr>
+            <tr>
+                <td>Joaquim</td>
+                <td>20</td>
+                <td>Analista de Qualidade</td>
+                <td>R$ 6500</td>
+            </tr>
+            <tr>
+                <td>Luiz</td>
+                <td>36</td>
+                <td>Gerente de Tecnologia</td>
+                <td>R$ 10000</td>
+            </tr>
+            <tr>
+                <td>Carolina</td>
+                <td>24</td>
+                <td>Designer Multimídia</td>
+                <td>R$ 7000</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>30</td>
+                <td>Engenheira de Software</td>
+                <td>R$ 9000</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>27</td>
+                <td>Designer Gráfica</td>
+                <td>R$ 5000</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+                <td>Analista de Sistemas</td>
+                <td>R$ 7000</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>25</td>
+                <td>Engenheiro de Software</td>
+                <td>R$ 8000</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>29</td>
+                <td>Arquiteto de Software</td>
+                <td>R$ 9000</td>
+            </tr>
+            <tr>
+                <td>Isabella</td>
+                <td>26</td>
+                <td>Gerente de Projetos</td>
+                <td>R$ 10000</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>31</td>
+                <td>Analista de Negócios</td>
+                <td>R$ 6500</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>28</td>
+                <td>Designer UX/UI</td>
+                <td>R$ 7500</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>32</td>
+                <td>Arquiteto de Infraestrutura</td>
+                <td>R$ 8500</td>
+            </tr>
+            <tr>
+                <td>Vitoria</td>
+                <td>23</td>
+                <td>Engenheiro de Segurança</td>
+                <td>R$ 7000</td>
+            </tr>
+            <tr>
+                <td>Eduardo</td>
+                <td>33</td>
+                <td>Gerente de Suporte</td>
+                <td>R$ 9000</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>22</td>
+                <td>Analista de Redes</td>
+                <td>R$ 6000</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>34</td>
+                <td>Desenvolvedor Back-end</td>
+                <td>R$ 8000</td>
+            </tr>
+            <tr>
+                <td>André</td>
+                <td>21</td>
+                <td>Engenheiro de Dados</td>
+                <td>R$ 7500</td>
+            </tr>
+            <tr>
+                <td>Patrícia</td>
+                <td>35</td>
+                <td>Gerente de Marketing</td>
+                <td>R$ 9500</td>
+            </tr>
+            <tr>
+                <td>Joaquim</td>
+                <td>20</td>
+                <td>Analista de Qualidade</td>
+                <td>R$ 6500</td>
+            </tr>
+
+            
+
+            <tfoot>
+                <tr>
+                    <th>Pessoas</th>
+                    <td colspan="3">Total de pessoas: 10 </td>
+                    
+                </tr>
+            </tfoot>
+        </tbody>
+    </TAble>
+
+    
+</body>
+</html>
