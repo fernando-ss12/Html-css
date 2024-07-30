@@ -8,32 +8,37 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        iframe {
-            width: 300px;
-            height: 150px;
-        }
         a {
             color: red;
+            text-decoration: none;
+        }
+        iframe {
+            border: 1px solid black;
+            width: 500px;
+            height: 300px;
         }
         p {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         a:hover {
-            text-decoration: underline;
+            color: blue;
         }
         iframe:hover {
-            border: 1px solid blue;
+            border-color: blue;
         }
-        iframe[src="https://www.cursoemvideo.com"] {
-            border: 2px solid green;
+        a[target="_blank"]::after {
+            content: "[Abrir em nova janela]";
+            font-size: 12px;
+            margin-left: 5px;
         }
-        iframe[src="https://gustavoguanabara.github.io"] {
-            border: 2px solid yellow;
+        a[target="_blank"]:hover::after {
+            color: blue;
         }
-        iframe[src*="https://www.cursoemvideo.com"] {
-            border: 2px solid orange;
+        p:first-of-type::after {
+            content: "Guia em vídeo: ";
         }
-        iframe[src*="https://gustavoguanabara.github.io
+        p:last-of-
+        
     </style>
 </head>
 <body>
