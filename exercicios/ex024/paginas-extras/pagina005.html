@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScrpt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+        #saida {
+            margin-top: 10px;
+            font-weight: bold;
+            
+        }
+        #saida:hover {
+            color: red;
+        }  // Adicionando estilo ao link quando o mouse passa sobre ele. O texto muda para vermelho.  // O estilo é aplicado usando o método :hover no seletor #saida.  // O :hover é um pseudo-seletor CSS que representa um estado onde um elemento está sobre seu elemento pai.  // O seletor #saida é
+        
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">Clique em mim!</a>
+    <div id="saida"></div>
+    <script>
+        function clicou() {
+            document.getElementById("saida").innerHTML += "Você clicou!";
+        }  // Função para quando o link é clicado. A função altera o texto da div com id "saida".  // A função é chamada usando o método onclick no link.  // O método innerHTML altera o conteúdo HTML de um elemento.  // O texto "Você clicou!" é colocado na div.  // O link é um elemento de tag <a> que possui um atributo onclick.  // O evento onclick é um evento que ocorrerá quando o link for clicado.  // O evento é chamado clicou() que é a função que será executada.  // A função clicou() é declarada logo abaixo do script.  // O script é colocado no final do documento HTML.  // O script é executado quando o documento é carreg
+    </script>
+    
+</body>
+</html>
