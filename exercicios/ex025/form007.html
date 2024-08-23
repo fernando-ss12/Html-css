@@ -27,9 +27,27 @@
                 <option value="AC">Acre</option>
             </optgroup>
 
+
         </select>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" id="iprof" list="lstprof" name="iprof" required minlength="5" maxlength="50" placeholder="Minimo 5 letras">
+            <datalist id="lstprof">
+                <option value="Desenvolvedor">Desenvolvedor</option>
+                <option value="Analista">Analista</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Outros">Outros</option>
+                <option value="Técnico">Técnico</option>
+                <option value="Engenheiro">Engenheiro</option>
+                <option value="Administrador">Administrador</option>
+                <option value="Professor">Professor</option>
+            </datalist>
            
         </p>
+        <P>
+            <label for="imsg">Mensagem:</label>
+            <textarea id="imsg" name="imsg" required minlength="10" maxlength="200" placeholder="Minimo 10 caracteres" cols="30" rows="10"></textarea>
+        </P>
         <p>
             <input type="submit" value="Cadastrar">
             <input type="reset" value="Limpar">
