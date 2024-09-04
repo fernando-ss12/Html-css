@@ -1,0 +1,16 @@
+/* Estilos para paisagem */
+
+body {
+    background: url(imagens/cev-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: left;
+    color: #f2f8f2;
+  }
+  
+  /* Outros estilos específicos para paisagem */

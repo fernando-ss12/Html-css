@@ -1,0 +1,15 @@
+b/* Estilos para retrato */
+
+body {
+    background-image: url(imagens/cev-portrait.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #00698f;
+  }
+  
+  /* Outros estilos específicos para retrato */
